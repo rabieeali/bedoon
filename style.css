@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@300&display=swap");
+
+/* 
+font-family: 'Lobster', cursive;
+font-family: 'Roboto', sans-serif; 
+*/
+:root {
+  --white: #fff;
+  --gray:#eee;
+  --gray-light:rgba(238, 238, 238, 0.507);
+  --black: #000;
+  --light-purple: #a517ba;
+  --dark-purple: #5f1782;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+}
+#nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.navbar {
+  background-image: linear-gradient(var(--light-purple), var(--dark-purple));
+  padding: 0 !important;
+}
+.navbar-brand {
+  font-family: "Lobster", cursive;
+  font-size: 3rem !important ;
+  color: var(--white) !important;
+}
+.navbar-nav li {
+  padding: 0 1rem;
+}
+.navbar-nav li a {
+  color: var(--white) !important;
+  font-weight: 600;
+  float: right;
+  text-align: left;
+}
+.fa-bars {
+  color: var(--white);
+  font-size: 2rem;
+}
+/* ------------banner-section------------------- */
+#banner {
+  background-image: linear-gradient(var(--light-purple), var(--dark-purple));
+  color: var(--white);
+  padding: 5%;
+}
+.promo-title {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-top: 6rem;
+}
+.fa-play-circle {
+  font-size: 2rem;
+  color: var(--white);
+  padding: 1rem;
+  margin-right: 2rem;
+}
+.fa-play-circle::before {
+  padding-right: 1rem;
+}
+.bottom-img {
+  width: 100%;
+}
+/*--------------------------------- services-------------------- */
+#services {
+  padding: 5rem 0;
+}
+.services h4 {
+  margin: 2rem 0;
+  padding: 0.5rem;
+  text-transform: uppercase;
+}
+.title{
+    text-decoration: solid underline overline var(--light-purple);
+    text-underline-position: under;
+    margin-bottom: 10rem;
+}
+#services .btn-primary{
+    box-shadow: none;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 2rem;
+    background-image: linear-gradient(var(--light-purple), var(--dark-purple));
+}
+/*---------------------------------about-us-------------------- */
+#about-us{
+background-color: var(--gray-light);
+padding: 5rem 0;
+}
+.about-us-title{
+font-size: 3rem;
+font-weight: 600;
+margin-top: 8%;
+}
+#about-us ul li{
+    margin: 0.75rem 0;
+}
+/* -------------------------testimonials-section------------------------------- */
+#testimonials{
+    margin: 7rem 0;
+    box-shadow: 0 4px 2px -2px var(--gray);
+}
+.testimonials{
+    border-left: 4px solid var(--dark-purple);
+    margin: 4rem 0 ;
+}
+.testimonials img{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    margin: 0 1rem;
+}
+.user-details{
+   display: inline-block;
+   font-size: 1rem;
+}
+/* ------------------------social-media-section--------------------- */
+#social-media{
+  
+    padding: 7rem 0;
+}
+#social-media p{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+.social-icons img{
+    width: 4rem;
+    transition: 0.5s;
+}
+.social-icons a:hover img{
+    transform: translateY(-10px);
+}
+
+/* -----------------------footer------------------------ */
+#footer{
+    background-image: linear-gradient(var(--light-purple), var(--dark-purple));
+    color: var(--white);
+}
+.footer-img{
+    width: 100%;
+}
+.footer-box{
+    padding: 1.25rem;
+}
+.footer-box img{
+    width: 9rem;
+    margin-bottom: 1rem;
+}
+.footer-box .fa{
+    margin-right: 0.25rem;
+    font-size: 1.25rem;
+    height: 2.5rem;
+    width: 2.5rem;
+    text-align:center ;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-image: linear-gradient(var(--light-purple), var(--dark-purple));
+}
+.footer-box .form-control{
+box-shadow: none !important;
+border: none;
+border-radius: 0;
+margin-top: 25px;
+max-width: 250px;}
+.footer-box  .btn-primary{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0.5rem;
+    margin-top: 30px;
+    background-image: linear-gradient(var(--light-purple), var(--dark-purple));
+}
+hr{
+    background-color: var(--white);
+}
+.copyright{
+margin-bottom: 0;
+padding-bottom: 1.5rem;
+text-transform: capitalize;
+}
